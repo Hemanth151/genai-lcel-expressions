@@ -14,7 +14,7 @@ To design and implement a LangChain Expression Language (LCEL) expression that u
 #### STEP 3:
 
 ### PROGRAM:
-''''
+/*
 import os
 import openai
 
@@ -56,6 +56,7 @@ chain = RunnableMap({
     "question": lambda x: x["question"]
 }) | prompt | model | output_parser
 chain.invoke({"question": "Hemanth is which student?"})
+*/
 
 ''''
 
